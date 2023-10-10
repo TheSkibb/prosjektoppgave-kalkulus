@@ -1,3 +1,4 @@
+[Flyttet til](file:///home/kristian/skolearbeidUiA/matte/prosjektoppgave-kalkulus/prosjektOppgave.md)
 ## oppgave 1
 
 Finne $c_0$ og $c_1$
@@ -115,4 +116,5 @@ Vi ender opp med polynomet
 $$
 p(\Phi)=h+3x^2-2x^3
 $$
+
 
