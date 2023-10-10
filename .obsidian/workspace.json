@@ -11,24 +11,13 @@
             "id": "4dc3433bb6f1e394",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Oppgave 6,7,8.md",
-                "mode": "source",
-                "source": false
+                "file": "Oppgave 6,7,8.pdf"
               }
             }
-          },
-          {
-            "id": "f1c74d37086a6d1b",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,6 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Oppgave 6,7,8.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Oppgave 6,7,8.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +122,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Oppgave 6,7,8.pdf"
+              }
             }
           }
         ]
@@ -151,10 +144,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f1c74d37086a6d1b",
+  "active": "70154cb7bb3ab636",
   "lastOpenFiles": [
+    "prosjektoppgave2023.pdf",
+    "prosjektOppgave.md",
     "Oppgave 6,7,8.md",
-    "Oppgave 6,7,8.pdf",
-    "prosjektOppgave.md"
+    "Oppgave 6,7,8.pdf"
   ]
 }
