@@ -4,6 +4,9 @@
 
 Begrunn hvorfor det er 5. grad polynom
 
+>forslag til forklaring:
+vi har fått oppgitt at den andre+deriverte har to punkter som er lik null. Det minste polynomet med to nullpunkter vil være et 2-gradspolynom. Siden den andrederiverte er minst et andregradspolynom, så må funksjonen være et femtegradspolynom
+
 Hvis det er mer kan du ikke lage systemet av likninger.
 
 Hvis det er mer enn fem grader vil de ekstra konstantene kunne være alle reele tall

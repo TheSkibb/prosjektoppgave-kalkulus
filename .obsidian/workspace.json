@@ -16,6 +16,18 @@
                 "file": "Oppgave 6,7,8.pdf"
               }
             }
+          },
+          {
+            "id": "bf7f8f93e909970b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "prosjektOppgave.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -144,11 +156,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "70154cb7bb3ab636",
+  "active": "4dc3433bb6f1e394",
   "lastOpenFiles": [
-    "prosjektoppgave2023.pdf",
     "prosjektOppgave.md",
-    "Oppgave 6,7,8.md",
-    "Oppgave 6,7,8.pdf"
+    "Oppgave 6,7,8.pdf",
+    "plotAkselerasjon.png",
+    "prosjektoppgave2023.pdf",
+    "Oppgave 6,7,8.md"
   ]
 }

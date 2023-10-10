@@ -117,4 +117,10 @@ $$
 p(\Phi)=h+3x^2-2x^3
 $$
 
+## oppg 5
 
+Vi deriverer de to funksjonene og plotter dem.
+
+![](plotAkselerasjon.png)
+
+Vi ser fra dette plottet at for at akselerasjonen skal være kontinuerlig så må akselerasjonen for $p''(\phi)=0$ ellers så møtes ikke funksjonene, noe som gjør at det er et "hopp".
