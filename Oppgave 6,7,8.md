@@ -4,8 +4,8 @@
 
 Begrunn hvorfor det er 5. grad polynom
 
->forslag til forklaring:
-vi har fått oppgitt at den andre+deriverte har to punkter som er lik null. Det minste polynomet med to nullpunkter vil være et 2-gradspolynom. Siden den andrederiverte er minst et andregradspolynom, så må funksjonen være et femtegradspolynom
+> Begrunnelse for 5. gradspolynom
+i betingelsene har vi fått vite at den deriverte og den andrederiverte to nullpunkter i samme punkt ($x=0$ og $x=1$), når den andredervierte er lik 0, betyr det at det er et topp, bunn eller terrassepunkt for den deriverte. Hvis funksjonen skal være definert for hele intervallet, så må det være et topppunkt for den deriverte mellom disse to punktene
 
 Hvis det er mer kan du ikke lage systemet av likninger.
 
@@ -69,7 +69,7 @@ $p'(1)=0= 5c_5+4c_4+3c_3$
 
 $p''(1)= 0 = 20c_5+12c_4+6c_3$
 
-6.     $20c_5+12c_4+6c_3 = 0 $
+6.     $20c_5+12c_4+6c_3 = 0$
 
 
 
