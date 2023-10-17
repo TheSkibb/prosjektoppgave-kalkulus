@@ -11,23 +11,9 @@
             "id": "4dc3433bb6f1e394",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Oppgave 6,7,8.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bf7f8f93e909970b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "prosjektOppgave.md",
-                "mode": "source",
-                "source": false
+                "file": "Oppgave 6,7,8.pdf"
               }
             }
           }
@@ -97,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Oppgave 6,7,8.md",
+                "file": "Oppgave 6,7,8.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Oppgave 6,7,8.md",
+                "file": "Oppgave 6,7,8.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Oppgave 6,7,8.md"
+                "file": "Oppgave 6,7,8.pdf"
               }
             }
           }
@@ -161,8 +147,8 @@
   "active": "4dc3433bb6f1e394",
   "lastOpenFiles": [
     "prosjektOppgave.md",
-    "Oppgave 6,7,8.md",
     "Oppgave 6,7,8.pdf",
+    "Oppgave 6,7,8.md",
     "GeogebraOppgave6Graf",
     "GeogebraOppgave4Graf",
     "plotAkselerasjon.png",
