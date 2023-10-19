@@ -38,4 +38,3 @@ plt.plot(vinkel_liste, kam_y, "o")
 plt.show()
 
 
-

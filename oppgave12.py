@@ -36,6 +36,6 @@ degreeslist = list(range(0, 361, 10))
 
 for degree in degreeslist:
     radian = math.radians(degree)
-    print(degree, (10/2)*s(radian))
+    print(degree, s(radian))
 
 
