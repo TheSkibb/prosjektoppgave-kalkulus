@@ -1,14 +1,6 @@
 import math
-import numpy as np
-import matplotlib.pyplot as plt
 
-start = 0.0
-end = 2*math.pi
-number_of_points = 361
 h = 1
-
-vinkel_liste = np.linspace(start, end, 361)
-
 def s(phi) -> float:
     if phi < math.pi / 2:
         phi = phi/(math.pi/2)
@@ -27,14 +19,23 @@ def p(phi) -> float:
 def q(phi) -> float:
     return p(3 - phi)
 
-kam_x = []
-kam_y = []
-for vinkel in vinkel_liste:
-    kam_y.append(s(vinkel))
+def x(phi):
+    return math.sqrt((s(phi))**2-(s(phi))**2*math.sin(phi))
 
-print(kam_y)
+def y(phi):
+    return math.sqrt(s(phi)**2-s(phi)**2*math.cos(phi))
+"""
+def x(phi):
+    return math.cos(phi)*s(phi)
 
-plt.plot(vinkel_liste, kam_y, "o")
-plt.show()
+def y(phi):
+    return math.sin(phi)*s(phi)
+"""
+
+degreeslist = list(range(0, 361, 10))
+
+for degree in degreeslist:
+    radian = math.radians(degree)
+    print(degree, s(radian))
 
 
