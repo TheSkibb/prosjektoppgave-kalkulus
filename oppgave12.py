@@ -46,6 +46,7 @@ print(kam_y)
 plt.plot(vinkel_liste, kam_y, "o")
 plt.xticks([0, math.pi/2, math.pi, 3* math.pi / 2, 2 * math.pi], ['0', 'π/2', 'π', '3π/2', '2π'])
 plt.yticks([1, 2], ["1h", "2h"])
+plt.title("s evaluert mellom 0 og 2π")
 plt.show()
 
 
