@@ -36,6 +36,7 @@ kam_x = []
 kam_y = []
 for vinkel in vinkel_liste:
     # s tar imot et tall mellom 0 og 4 og vi deler derfor på pi/2 (se oppg 11 for forklaring)
+    # for å plotte x og y coordinatene bruker vi sin for å finne x og cos for å finne y (se oppg 10 og 11 for forklaring)
     kam_y.append(math.sin(vinkel)*s(vinkel/(math.pi/2)))
     kam_x.append(math.cos(vinkel)*s(vinkel/(math.pi/2)))
 
