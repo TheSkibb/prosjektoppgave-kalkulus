@@ -11,20 +11,18 @@ h = 1
 vinkel_liste = np.linspace(start, end, 361)
 
 def s(phi: float) -> float:
-    """Tar imot en vinkel mellom 0 og 2π og regner ut """
-
-    #konverter så gradene faller innenfor intervallet 0, 4
-    phi = phi/(math.pi/2)
-
-    #s som definert i oppgaveteksten
+    #s som definert i oppgaveteksten oppg 8
+    """Tar imot en vinkel mellom 0 og 4"""
     if phi < 1:
         return p(phi)
     if phi <= 2:
         return 2 * h
     if phi < 3:
         return q(phi)
-    else:
+    if phi <= 4:
         return h
+    #unreachable
+    return 0
 
 def p(phi) -> float:
     """p funksjon fra oppgave 6"""
@@ -38,6 +36,8 @@ kam_y = []
 
 #Evaluer funksjonen s for punktene og lagre dem i en liste
 for vinkel in vinkel_liste:
+    # s tar imot et tall mellom 0 og 4 og vi deler derfor på pi/2 (se oppg 11 for forklaring)
+    vinkel = vinkel / (math.pi/2)
     kam_y.append(s(vinkel))
 
 print(kam_y)
