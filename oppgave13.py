@@ -1,6 +1,6 @@
 import math
 
-h = 1
+h = 5
 def s(phi) -> float:
     if phi < math.pi / 2:
         phi = phi/(math.pi/2)
@@ -36,6 +36,6 @@ degreeslist = list(range(0, 361, 10))
 
 for degree in degreeslist:
     radian = math.radians(degree)
-    print(degree, s(radian))
+    print(degree, (s(radian)))
 
 
