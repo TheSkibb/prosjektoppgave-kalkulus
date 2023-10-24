@@ -34,7 +34,7 @@ def q(phi) -> float:
 
 kam_y = []
 
-#Evaluer funksjonen s for punktene og lagre dem i en liste
+#Evaluer funksjonen s for punktene og lagrer dem i en liste
 for vinkel in vinkel_liste:
     # s tar imot et tall mellom 0 og 4 og vi deler derfor på pi/2 (se oppg 11 for forklaring)
     vinkel = vinkel / (math.pi/2)

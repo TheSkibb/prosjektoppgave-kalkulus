@@ -1,5 +1,5 @@
 """
-samme som oppgave 12, bortsett fra at vi har fjernet plottingen og satt h=5 for å tegne kamskive
+samme som oppgave 12, bortsett fra at vi har fjernet plottingen og satt h=5 for å tegne kamskiven på rutepapir hvor 2h = 10cm
 """
 
 import math
@@ -8,8 +8,8 @@ import math
 h = 5
 
 def s(phi: float) -> float:
-    #s som definert i oppgaveteksten oppg 8
     """Tar imot en vinkel mellom 0 og 4"""
+    #s som definert i oppgaveteksten oppg 8
     if phi < 1:
         return p(phi)
     if phi <= 2:
