@@ -24,13 +24,6 @@ def x(phi):
 
 def y(phi):
     return math.sqrt(s(phi)**2-s(phi)**2*math.cos(phi))
-"""
-def x(phi):
-    return math.cos(phi)*s(phi)
-
-def y(phi):
-    return math.sin(phi)*s(phi)
-"""
 
 degreeslist = list(range(0, 361, 10))
 
