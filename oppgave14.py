@@ -40,8 +40,16 @@ for vinkel in vinkel_liste:
     kam_y.append(math.sin(vinkel)*s(vinkel/(math.pi/2)))
     kam_x.append(math.cos(vinkel)*s(vinkel/(math.pi/2)))
 
+#add origo
+kam_y.append(0)
+kam_x.append(0)
+
 plt.plot(kam_x, kam_y, "o")
+plt.grid()
+plt.xlabel("x")
+plt.ylabel("y")
 plt.show()
+plt.legend()
 
 
 
