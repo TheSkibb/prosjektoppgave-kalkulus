@@ -29,12 +29,6 @@ def q(phi) -> float:
     """q funksjon fra oppgave 8"""
     return p(3 - phi)
 
-def x(phi):
-    return math.sqrt((s(phi))**2-(s(phi))**2*math.sin(phi))
-
-def y(phi):
-    return math.sqrt(s(phi)**2-s(phi)**2*math.cos(phi))
-
 # lag en liste med
 degreeslist = list(range(0, 361, 10))
 
