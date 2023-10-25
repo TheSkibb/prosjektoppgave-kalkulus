@@ -11,8 +11,8 @@ h = 1
 vinkel_liste = np.linspace(start, end, 361)
 
 def s(phi: float) -> float:
-    #s som definert i oppgaveteksten oppg 8
     """Tar imot en vinkel mellom 0 og 4"""
+    #s som definert i oppgaveteksten oppg 8
     if phi < 1:
         return p(phi)
     if phi <= 2:
